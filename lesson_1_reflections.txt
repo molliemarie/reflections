@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It helped to minimize the amount of code you needed to look through. 
+You know that you only need to look at the lines that are different, because the error must have come up where changes were made.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+As a programmer you are constantly editing your code. 
+Sometimes, during the course of these edits, you introduce errors.
+Having acces to your entire history would make it easy to spot the errors you have introduced.
+Also, perhaps you removed a feature that you later decide you wish you hadn't removed. 
+If you have all your old versions saved, you would be able to go back and find that old work.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+PROS: Your commits will be more logical, and easily traceable.
+You will be able to find the likely area where errors were introduced easily
+CONS: If you forget to save often, then you could potentially wait too long in between saves.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git was designed specifically with coding files in mind, and since there are often several files intertwined when it comes to coding, it makes sense to be able to connect the files in this way.
+Google Docs (and other similar version control systems) were not specifically designed with coding in mind. 
+The files saved with Google Docs, et al. typically do not need to be connected with other files
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log: shows you the log of all your commits, with dates, times, and comments on what changes were made
+git diff: After you've accessed git log and gotten the appropriate codes associated with each commit, you can use get diff to find the differences between versions
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Because you would know that you could easily undo whatever changes you make, you could be more confident in trying new things because you'd know you could always go back to an earlier version very easily.
