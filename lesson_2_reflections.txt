@@ -6,3 +6,29 @@ An empty git repository is created. You need to create a repository to be able t
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a subset of the repository. It represents only the files you will be editing for that commit. It allows you to only work with the files necessary for each task.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can check git diff --staged to see how many changes you have made so far, and to keep you commiting enough.4
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+They are helpful when you would like to try out a new feature, but you aren't so sure that you'd like to keep the new changes. It allows you to try out new things without fear of messing up the original code.
+
+
+How do the diagrams help you visualize the branch structure?
+
+It helps me understand the idea of there being parent commits, and see which commits could potentially be lost.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It combines the changes made during each branch since the branch split. It adds new sections, as well as deletes removed sections.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: Prevents human error, less work
+cons: could make a mistake
